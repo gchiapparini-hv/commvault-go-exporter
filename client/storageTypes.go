@@ -51,7 +51,7 @@ type LibraryDetail struct {
 	LibraryUsedForLogCaching bool   `json:"libraryUsedForLogCaching"`
 	ExtendedAttributes       uint64 `json:"extendedAttributes"`
 	Manufacturer             string `json:"manufacturer"`
-	StoragePoolType          uint64 `json:"storagePoolType"`
+	StoragePoolType          int64  `json:"storagePoolType"`
 	LibraryVendorId          uint64 `json:"libraryVendorId"`
 	Model                    string `json:"model"`
 	LibraryType              uint64 `json:"libraryType"`
